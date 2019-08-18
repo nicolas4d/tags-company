@@ -1,28 +1,31 @@
 # tags-company
- 
- use tags more flexible for company.
 
- by default, to use this package you need to update the ctag to
- universal-ctags. otherwise, you need to fix the commad in
- tags-company/create-tags-command-and-option variable.
+use tags more flexible for company.
 
- create tags-company/conf file to directory as root directory.
- and create tags use tags-company/update. the TAGS file will be
- created at root directory. when use tags file to company. it will
- use of just ceated TAGS file.
+- prerequisite：
+  1. emacs 27 (I just tested this version)
 
- you can add more then one TAGS file to add path to the tags-company/conf
- files.
+  2. by default, to use this package you need to update the ctag to
+  universal-ctags. otherwise, you need to fix the commad in
+  tags-company/create-tags-command-and-option variable.
 
- you can toggle the way when save buffer automatically re-create tags.
- use of the tags-company/toggle-update-tags-when-save-buffer function.
+- usage:
+  
+  create tags-company/conf file to directory as root directory.
+  and create tags use tags-company/update. the TAGS file will be
+  created at root directory. when use tags file to company. it will
+  use of just ceated TAGS file.
 
- tags-company/update-all-tags controll the create tags way.
- if nil (for default) just re-create root directory's tags.
- if t, re-create all tags that the tags-table-list paths.
+  you can add more then one TAGS file to add path to the tags-company/conf
+  files.
 
- tags-company/conf variable the conf file.
+  you can toggle the way when save buffer automatically re-create tags.
+  use of the tags-company/toggle-update-tags-when-save-buffer function.
 
- all function available function and variable is started prefix tags-company.
+  tags-company/update-all-tags controll the create tags way.
+  if nil (for default) just re-create root directory's tags.
+  if t, re-create all tags that the tags-table-list paths.
 
- all issue is welcome. like nicolas4d is very handsome! 
+  tags-company/conf variable the conf file.
+
+  all function available function and variable is started prefix tags-company.

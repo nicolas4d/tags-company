@@ -12,10 +12,14 @@
 ;;; Commentary:
 ;; use tags more flexible for company.
 ;;
-;; by default, to use this package you need to update the ctag to
+;; prerequisite：
+;; 1. emacs 27 (I just tested this version)
+;;
+;; 2. by default, to use this package you need to update the ctag to
 ;; universal-ctags. otherwise, you need to fix the commad in
 ;; tags-company/create-tags-command-and-option variable.
 ;;
+;; usage:
 ;; create tags-company/conf file to directory as root directory.
 ;; and create tags use tags-company/update. the TAGS file will be
 ;; created at root directory. when use tags file to company. it will
