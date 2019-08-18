@@ -39,6 +39,8 @@
 ;;
 ;; all function available function and variable is started prefix tags-company.
 ;;
+;; finally! thanks for zilongshanren and his's 21学会emacs
+;; let me deep into emacs.
 ;;; code
 
 (defvar tags-company/conf

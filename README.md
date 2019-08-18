@@ -2,14 +2,14 @@
 
 use tags more flexible for company.
 
-- prerequisite：
+* prerequisite：
   1. emacs 27 (I just tested this version)
 
   2. by default, to use this package you need to update the ctag to
-  universal-ctags. otherwise, you need to fix the commad in
-  tags-company/create-tags-command-and-option variable.
+     universal-ctags. otherwise, you need to fix the commad in
+     tags-company/create-tags-command-and-option variable.
 
-- usage:
+* usage:
   
   create tags-company/conf file to directory as root directory.
   and create tags use tags-company/update. the TAGS file will be
@@ -29,3 +29,7 @@ use tags more flexible for company.
   tags-company/conf variable the conf file.
 
   all function available function and variable is started prefix tags-company.
+
+* thanks
+  finally! thanks for zilongshanren and his's 21学会emacs
+  let me deep into emacs.
