@@ -65,7 +65,7 @@ if t, create tags for all tags-company in the tags-table-list."
 (defvar tags-company/set-environment-msg
   "set tags-company environment succeed")
 (defvar tags-company/unset-environment-succeed-msg
-  "unset tags-company environment succeed")p
+  "unset tags-company environment succeed")
 (defvar tags-company/unset-environment-not-found-msg
   "not found tags-company environment")
 
